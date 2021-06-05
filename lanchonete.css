@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: none;
+}
+
+body {
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    background-image: url(../_img/fundo-lanches.jpg);
+    color: #1f1f1f;
+}
+
+#return {
+    padding: 5px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    max-width: 30px;
+    justify-self: left;
+}
+
+#return:any-link{
+    text-decoration: none;
+    color: #2f313d;
+}
+
+#return:hover {
+    text-decoration: underline;
+}
+
+#content {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffffb3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#title  {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+
+#conteiner {
+    padding: 0px 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nf {
+    text-align: left;
+    border: 1px solid #1f1f1f;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#comprar {
+    padding: 10px 25px;
+    border: 1px solid #8d8b8b;
+    font-family: inherit;
+    font-size: 14px;
+    max-width: 100px;
+    position: relative;
+    left: 700px;
+    margin-bottom: 20px;
+}
+
+#comprar:hover {
+    cursor: pointer;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.botao {
+    font-size: 20px;
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    border: 1px grey solid;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.nome {
+    margin-top: 40px;
+}
+
+.value {
+    font-size: 16px;
+    width: 70px;
+    color: #1f1f1f;
+}
+
+.foto {
+    width: 150px;
+    top: 50px;
+}
+
+.lanche {
+    display: inline-flex;
+    margin: 25px;
+}
+
+.info  {
+    position: relative;
+    top: -20px;
+    margin-left: 10px;
+}
+
+.celula {
+    border: 1px solid #1f1f1f;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titulo {
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #dbdbdb;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.sub {
+    text-align: right;
+}
